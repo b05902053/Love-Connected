@@ -24,11 +24,11 @@ void print_matrix(int F[SIZE])
 	}
 }
 
-#include "naive.hpp"
+#include "parallel.hpp"
 
 int main(int argc, char *argv[])
 {
-	srand(0xada);
+	srand(time(NULL));
 	static int F[SIZE];
 
 	if (argc != 2) printf("usage: ./a.out [number of trials <= %d]\n", MAX_TRIAL_COUNT), exit(0);

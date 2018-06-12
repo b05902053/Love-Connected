@@ -34,7 +34,6 @@ unsigned long long find_perfect_matches(int F[SIZE])
 	int count = 0;
 	int round = 0;
 	int place = -1;
-	int store;
 	int m[NUM];
 	int n[NUM];
 	int r, c;
