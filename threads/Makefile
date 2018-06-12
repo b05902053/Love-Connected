@@ -1,7 +1,7 @@
 .PHONY: clean
 
-LIB=
 TARGET=parallel.out
+LIB=-lpthread
 all: $(TARGET)
 
 naive.out: main.o naive.o naive.hpp constants.hpp
